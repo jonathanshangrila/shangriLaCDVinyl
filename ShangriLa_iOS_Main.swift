@@ -1,17 +1,30 @@
 //
-//  shangri_la_appApp.swift
-//  shangri_la_app
+//  ContentView.swift
+//  Shared
 //
-//  Created by Jonathan Tran on 12/14/22.
+//  Created by jonathan on 10/1/22.
 //
 
 import SwiftUI
 
-@main
-struct shangri_la_appApp: App {
-    var body: some Scene {
-        WindowGroup {
-            MeetingView()
-        }
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, world!")
+        Text("Welcome to Shangri-La Music!")
+        Text("")
+        Text("The CD & Vinyl")
+        Text("mail-to-home,")
+        Text("listen-and-keep,")
+        Text("or,")
+        Text("listen-to-buy")
+        Text("subscription app!")
+            .padding()
     }
 }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+
